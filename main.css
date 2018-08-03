@@ -1,0 +1,84 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.searchimput {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100%;
+    border-style:ridge;
+
+    }
+button {
+    position:relative;
+    left:45%;
+    transform: translateX(-50%);
+    border-style: ridge;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+}
+a:link, a:visited {
+    color: #111111;
+    cursor: pointer;
+    font-size: 96%;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.icon {
+    float: right;
+    width: 15px;
+    height: :15px;
+    padding-top: 4px;
+}
+.profile {
+    float: right;
+    width: 25px;
+    height: :10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    background-color: lightgray;
+    color: #444444;
+    text-align: left;
+}
+.footer2 {
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: #444444;
+    text-align: left;
+    display: inline-flex;
+}
+
+.gizlilik {
+
+    text-align: right;
+
+}
+
